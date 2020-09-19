@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Slab:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: initial;
+}
+
+:root {
+  --color-primary: #b71c1c;
+  --color-dark: #7f0000;
+  --color-light: #f05545;
+}
+
+::selection {
+  background-color: #b71c1c;
+  color: white;
+}
