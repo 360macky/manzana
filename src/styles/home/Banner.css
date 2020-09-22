@@ -1,0 +1,94 @@
+.banner {
+  background: url('https://i.imgur.com/RDNFN4r.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.banner__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-height: 70vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.banner__info--large-slogan {
+  background-color: rgba(240, 85, 69, 0.8);
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.banner__info--small-slogan {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__search-dates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  text-transform: inherit;
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.banner__search-dates:hover {
+  background-color: var(--color-light);
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+/* Mobile Design */
+@media (min-width: 560px) {
+  .banner__mobile-search-button {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner__search {
+    display: none;
+  }
+  .banner__mobile-search-button {
+    margin-top: 25px;
+    width: 90%;
+    padding: 15px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-primary);
+    transition-property: background-color, border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    font-family: 'Roboto Slab', sans-serif;
+    outline: none;
+  }
+  .banner__mobile-search-button:hover,
+  .banner__mobile-search-button:focus {
+    border: 2px solid var(--color-light);
+    background-color: var(--color-light);
+  }
+}
