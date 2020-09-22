@@ -61,6 +61,6 @@ See [`LICENSE`](./LICENSE) for more information.
 
 
 ## 🕖 Speed
-The website was tested using **Google Lightspeed** with a score of **94** of 100:
+The website was tested using **Google Pagespeed** with a score of **94** of 100:
 
 <img src="./.github/performance.png" alt="Velocity of Manzana" title="Velocity of Manzana" />
