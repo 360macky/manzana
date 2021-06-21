@@ -1,3 +1,5 @@
+<img src="./.github/manzana_web_app.png" alt="Manzana Web App on iPhone" title="Manzana Web App on iPhone" />
+
 <h1 align="center">🍎 Manzana 🏡</h1>
 
 <!-- Shields -->
@@ -14,13 +16,12 @@
   <img src="https://img.shields.io/static/v1?label=React%20Date%20Range&message=v1.0.3&color=61DAFB&logo=react" />
 </p>
 
+<p align="center">
+<img src="./.github/manzana_macbook.png" alt="Macbook with Manzana Web App" title="Macbook with Manzana Web App" width="500" />
+</p>
+
 <p align="center">La plataforma para adquirir espacios libres</p>
 <p align="center">The platform to acquire free spaces</p>
-
-
-<img src="./.github/screenshot.png" alt="Screenshot of Manzana" title="Screenshot of Manzana" />
-
-
 
 
 ## 🚀 Deployment
@@ -56,6 +57,10 @@ People who contributed to the development and maintenance of the project.
 
 See also the list of [contributors](https://github.com/360macky/manzana/graphs/contributors) who participated in the project.
 
+
+## 📸 Galery
+
+<img src="./.github/screenshot.png" alt="Screenshot of Manzana" title="Screenshot of Manzana" />
 
 ## 📃 License
 Distributed under the MIT License.
