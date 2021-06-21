@@ -1,12 +1,5 @@
 <h1 align="center">🍎 Manzana 🏡</h1>
 
-<p align="center">La plataforma para adquirir espacios libres</p>
-<p align="center">The platform to acquire free spaces</p>
-
-
-<img src="./.github/screenshot.png" alt="Screenshot of Manzana" title="Screenshot of Manzana" />
-
-
 <!-- Shields -->
 <p align="center">
   <!-- Node -->
@@ -20,6 +13,15 @@
   <!-- React Date Range -->
   <img src="https://img.shields.io/static/v1?label=React%20Date%20Range&message=v1.0.3&color=61DAFB&logo=react" />
 </p>
+
+<p align="center">La plataforma para adquirir espacios libres</p>
+<p align="center">The platform to acquire free spaces</p>
+
+
+<img src="./.github/screenshot.png" alt="Screenshot of Manzana" title="Screenshot of Manzana" />
+
+
+
 
 ## 🚀 Deployment
 💻 Once you have cloned or directly downloaded this repository: Open a terminal, go to the project 
